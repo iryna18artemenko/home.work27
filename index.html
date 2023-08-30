@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Голосування</title>
+
+    <style>
+        .conteiner {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .images {
+            display: flex;
+        }
+
+        .img {
+            width: 80px;
+            height: 80px;
+            margin: 20px;
+        }
+
+        .number {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .num {
+            list-style: none;
+            margin-left: 10px;
+            margin-right: 100px;
+        }
+
+    </style>
+</head>
+<body>
+     <div class="conteiner">
+        <div class="images">
+          <img id="img1" class="img" src="./images/smail1.jpg" alt="smail1"/>
+          <img id="img2" class="img" src="./images/smail2.jpg" alt="smail2"/>
+          <img id="img3" class="img" src="./images/smail3.jpg" alt="smail3"/>
+          <img id="img4" class="img" src="./images/smail4.jpg" alt="smail4"/>
+          <img id="img5" class="img" src="./images/smail5.jpg" alt="smail5"/>
+        </div>
+
+        <ul class="number">
+            <li id="num1" class="num">0</li>
+            <li id="num2" class="num">0</li>
+            <li id="num3" class="num">0</li>
+            <li id="num4" class="num">0</li>
+            <li id="num5" class="num">0</li>
+        </ul>
+        
+     </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
